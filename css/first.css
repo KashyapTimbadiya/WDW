@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundcolor {
+    background-color: rgb(80, 212, 245);
+    border-radius: 30px;
+
+}
+
+.nav-item:hover {
+    background-color: rgb(82, 163, 184);
+    font-weight: 500;
+}
+
+.btncolor {
+    background-color: black;
+}
+
+.img1 {
+    height: 39.78vh;
+    width: 24.73vw;
+}
+
+.container1-mini1,
+.container1-mini2 {
+    display: flex;
+}
+
+.container1-mini1-1,
+.container1-mini1-2 {
+    width: 50%;
+}
+
+.container1-mini2-1,
+.container1-mini2-2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy {
+    background-color: gray;
+    color: black;
+}
+
+.container8 {
+    display: flex;
+    background-color: black;
+    color: #f9ca24;
+}
+
+.contact-us {
+    background-color: rgb(163, 213, 241);
+    width: 50%;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.about-us {
+    width: 50%;
+    padding: 1%;
+}
+.container8 {
+  display: flex;
+  background-color: rgb(163, 213, 241);
+  color: black;
+}
+.bgofcontact{
+    background-color: rgb(163, 213, 241);
+}
+
+.social-icon1 {
+  color: blue;
+}
+
+.social-icon2 {
+    color: red;
+}
+
+.social-icon3 {
+  color: orangered;
+}
+.text1{
+    text-align: center;
+}
+
+@media(max-width:800px) {
+    .img1 {
+        height: 35.78vh;
+    }
+}
+
+@media(max-width:650px) {
+    .img1 {
+        height: 30.78vh;
+    }
+}
+
+@media(max-width:550px) {
+    .img1 {
+        height: 25.78vh;
+    }
+}
+
+@media(max-width:450px) {
+    .img1 {
+        height: 22.78vh;
+    }
+}
+
+@media (max-width: 800px) {
+  .container8 {
+    display: block;
+    font-size: 1.1rem;
+  }
+
+  .contact-us,
+  .about-us {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+    .container8 {
+        display: block;
+        font-size: 1.1rem;
+    }
+
+    .contact-us,
+    .about-us {
+        width: 100%;
+    }
+}
+
+.seeall{
+    display: flex;
+    justify-content: right;
+    font-size: 1.3rem;
+    
+}
+.seeall a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+    margin-top: -2%;
+}
+
+.firstdis span{
+    animation: underline 2s ease-in-out infinite;
+}
+
+@keyframes underline {
+    from {
+    }
+    to {
+    }
+  }
